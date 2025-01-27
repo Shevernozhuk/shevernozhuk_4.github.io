@@ -1,0 +1,9 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(182 200 255 / 26%);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}

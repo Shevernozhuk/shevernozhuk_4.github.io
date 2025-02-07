@@ -43,6 +43,7 @@ export const campaigns = {
         axios.post(this.parent.url + "/site/getCampaigns?auth=" + this.parent.user.auth, data).then(function(response) {
             self.data = response.data;
             self.loader = 0;
+            if(self.iChart!=-1) self.line(self.data.items[self.iChart]);
           })
           .catch(function(error) {
             self.parent.logout();

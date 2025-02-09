@@ -292,19 +292,19 @@ export const campaigns = {
                               </a>
                           </td>
                           <td class="id">
-                              <a href="#" click.prevent="$refs.details.active=1;getDetails(item.id,2)">
+                              <a href="#" @click.prevent="$refs.details.active=1;getDetails(item.id,2)">
                                   <template v-if="item.clicks">{{item.clicks}}</template>
                                   <template v-if="!item.clicks">0</template>
                               </a>
                           </td>
                           <td class="id">
-                              <a href="#" click.prevent="$refs.details.active=1;getDetails(item.id,3)">
+                              <a href="#" @click.prevent="$refs.details.active=1;getDetails(item.id,3)">
                                   <template v-if="item.leads">{{item.leads}}</template>
                                   <template v-if="!item.leads">0</template>
                               </a>
                           </td>
                           <td class="id">
-                              <a href="#" click.prevent="$refs.details.active=1;getDetails(item.id,4)">
+                              <a href="#" @click.prevent="$refs.details.active=1;getDetails(item.id,4)">
                                   <template v-if="item.fclicks">{{item.fclicks}}</template>
                                   <template v-if="!item.fclicks">0</template>
                               </a>

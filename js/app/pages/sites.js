@@ -115,8 +115,7 @@ export const sites = {
                     <thead>
                         <tr>
                             <th class="id"></th>
-                            <th class="image">Site</th>
-                            <th>Link</th>
+                            <th class="image text-center">Site</th>
                             <th class="id">Views</th>
                             <th class="id">Clicks</th>
                             <th class="id">Leads</th>

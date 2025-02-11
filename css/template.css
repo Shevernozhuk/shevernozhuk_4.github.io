@@ -127,6 +127,9 @@ a{
 .text-start{
     text-align: start;
 }
+.text-center{
+    text-align: center;
+}
 .text-end{
     text-align: end;
 }
@@ -693,4 +696,7 @@ textarea:focus{
 }
 .btnS .fa-images:hover{
     color: #ffffff; 
+}
+.table thead .text-center{
+    text-align: center;
 }
